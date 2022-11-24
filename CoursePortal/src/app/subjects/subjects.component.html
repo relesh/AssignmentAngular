@@ -1,0 +1,21 @@
+<div>
+
+<div>
+  <label for="subject">Subjects:</label>
+  <input type="text" id="subject" [(ngModel)]="subject"/>
+
+  <button (click)="submit()"> Submit </button>
+
+  <button (click)="clear()"> Clear </button>
+</div>
+
+<div *ngIf="submittedSub.length>4">
+<div *ngFor="let subjName of submittedSub">
+   - {{subjName}}
+</div>
+</div>
+
+
+
+
+</div>

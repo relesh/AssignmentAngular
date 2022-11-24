@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+
+.borderDefault{
+  border: solid chartreuse;
+  margin-bottom: 1.5em;
+}
